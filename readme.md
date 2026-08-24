@@ -76,3 +76,42 @@ app_network
 | Serviço | Porta Interna | Porta Externa | Acesso Externo        |
 |---------|---------------|---------------|-----------------------|
 | NGINX   | 80            | **8080**      | http://localhost:8080 |
+
+
+---
+
+# Atividades desenvolvidas
+
+## TF01 — Aula 01: Servidor de Arquivos Estáticos e DOM
+
+No TF01 foi implementada uma lista dinâmica utilizando JavaScript e manipulação do DOM.
+
+### Funcionalidades implementadas
+
+- Adicionar novos itens à lista;
+- Impedir a adição de itens vazios;
+- Excluir itens individualmente;
+- Manipular elementos da árvore DOM utilizando JavaScript.
+
+---
+
+## TF02 — Aula 02: CSS, Seletores e JS Reativo
+
+No TF02 foi adicionada a funcionalidade de edição dos itens existentes na lista.
+
+### Funcionalidades implementadas
+
+- Entrar no modo de edição ao clicar no texto de um item;
+- Substituir o texto por um campo `input` preenchido com o valor atual;
+- Alterar o nome utilizando o botão **Alterar**;
+- Confirmar a alteração utilizando a tecla **Enter**;
+- Impedir que valores vazios sejam salvos;
+- Manter a funcionalidade de exclusão dos itens;
+- Utilizar `event.target` e `event.currentTarget` para diferenciar cliques no item e nos botões;
+- Separar a lógica de edição no arquivo `editNameList.js`;
+- Utilizar `import` e `export` para trabalhar com módulos JavaScript.
+
+### Arquivos adicionados ou modificados
+
+- `public/js/createNameList.js`
+- `public/js/editNameList.js`
